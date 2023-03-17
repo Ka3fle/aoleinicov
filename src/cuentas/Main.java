@@ -30,7 +30,7 @@ public static void operativa_cuenta(CCuenta cuenta, double cantidad) {
             System.out.println("Fallo al retirar");
         }
         try {
-            System.out.println("Ingreso en cuenta");
+            System.out.println("Ingreso en cuentas");
             cuenta.ingresar(cantidad);
         } catch (Exception e) {
             System.out.println("Fallo al ingresar");
